@@ -1,7 +1,7 @@
 # Focus Scroll — Privacy Policy
 
-**Effective date:** July 6, 2026
-**Applies to:** Focus Scroll Chrome extension, version 1.2.0 and later
+**Effective date:** July 9, 2026
+**Applies to:** Focus Scroll Chrome extension, version 1.2.1 and later
 
 Focus Scroll is a distraction-free article reader. Its privacy posture is
 simple: **everything stays on your device. What you read is your business.**
@@ -19,13 +19,20 @@ you between your own computers (see "A note on Chrome Sync" below).
 
 **2. Highlights and notes** — if you highlight text in an article, the
 extension stores the highlighted text, any note you attach to it, the
-highlight color, and the article's title and web address (URL). This is
-stored via Chrome's `storage.local` area, **on your device only**, so your
-highlights reappear the next time you open the same article.
+highlight color, the addresses (URLs) of any links contained inside the
+highlighted text (so exports can reproduce them as working links), and the
+article's title and web address (URL). This is stored via Chrome's
+`storage.local` area, **on your device only**, so your highlights reappear
+the next time you open the same article.
 
 **3. Reading position** — where you were in an article, kept in the tab's
 session storage so reopening the reader returns you to the same spot. This
 is cleared automatically when the tab closes.
+
+**4. A one-time update marker** — when the extension updates to a version
+with new features, it stores the old and new version numbers (nothing else)
+so the reader can show a short "what's new" notice once. The marker is
+deleted as soon as the notice is shown.
 
 That is the complete list.
 
